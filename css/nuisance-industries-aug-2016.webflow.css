@@ -1,0 +1,226 @@
+body {
+  height: 100%;
+  font-family: Montserrat, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+a {
+  padding-bottom: 5px;
+  border-bottom: 4px solid #0008e6;
+  -webkit-transition: all 100ms ease-out;
+  transition: all 100ms ease-out;
+  color: #0008e6;
+  text-decoration: none;
+}
+
+a:hover {
+  padding-bottom: 9px;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  background-image: -webkit-radial-gradient(circle farthest-corner at 0% 0%, #0008e6, #cfb700);
+  background-image: radial-gradient(circle farthest-corner at 0% 0%, #0008e6, #cfb700);
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.main-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 25px;
+  padding: 20px 20px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-color: #fff;
+}
+
+.main-headline {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: -16px;
+  padding-bottom: 78px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-size: 40px;
+  line-height: 283%;
+  font-weight: 400;
+}
+
+.nuisance-industries {
+  display: block;
+  margin-bottom: -57px;
+  margin-left: 0px;
+  padding-bottom: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.title {
+  position: relative;
+  left: -261px;
+  right: -1px;
+  bottom: -44px;
+  z-index: 10;
+  display: inline-block;
+  margin-right: -209px;
+  float: none;
+  clear: none;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.contact-link {
+  display: block;
+  margin-bottom: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.contact-link-underline {
+  padding-bottom: 3px;
+  border-width: 2px;
+}
+
+.angel-link {
+  border-color: #807100;
+  color: #807100;
+}
+
+.andric-link {
+  border-color: #575aa5;
+  color: #575aa5;
+}
+
+@media (max-width: 991px) {
+  .main-div {
+    margin: 20px;
+  }
+  .main-headline {
+    margin-left: -14px;
+    font-size: 30px;
+  }
+  .nuisance-industries {
+    margin-bottom: -7px;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .title {
+    left: -108px;
+    bottom: -36px;
+    margin-right: -156px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-div {
+    margin: 15px;
+  }
+  .main-headline {
+    margin-right: 29px;
+    margin-left: 9px;
+  }
+  .title {
+    left: -89px;
+    bottom: -37px;
+  }
+}
+
+@media (max-width: 479px) {
+  a {
+    padding-bottom: 2px;
+    border-width: 2px;
+  }
+  .main-div {
+    margin: 5px;
+    padding: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+  }
+  .main-headline {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 14px;
+    font-size: 19px;
+    line-height: 253%;
+  }
+  .nuisance-industries {
+    margin-bottom: -11px;
+    font-size: 12px;
+    line-height: 326%;
+  }
+  .title {
+    left: -110px;
+    bottom: -25px;
+    margin-right: -135px;
+    margin-bottom: 25px;
+    font-size: 12px;
+    line-height: 100%;
+  }
+}
